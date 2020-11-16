@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title>Help</title>
+<a href="Index.html"><img src="Logo.jpg" alt="Logo" height="100" width="100"></a>
+<center>
+<h1 style="background-color:#0000ff;color:white;font-family:impact;">Encode Wizard</h1>
+<h2 style="font-family:impact">The place were you can get tips for video encoding</h2>
+</center>
+
+<style>
+table {
+    width: 100%; 
+    background-color:#0000ff;
+}
+</style>
+
+<table>
+<th><a href="Index.html"style="color:white;">Home</th>
+<th><a href="Encoding Video.html"style="color:white;">Encoding Video</th>
+<th><a href="Video Filters.html"style="color:white;">Video Filters</th>
+<th><a href="Encoding Audio.html"style="color:white;">Encoding Audio</th>
+<th><a href="Help.html"style="color:white;">Help</th>
+</table>
+
+<body>
+<p style="font-family:impact;font-size:120%">Need to summon the Wizard?</p>
+<p><b>Email:</b> welch8119@gmail.com</p>
+
+<a href="https://handbrake.fr/docs/en/1.1.0/table-of-contents.html>Handbrake Doumentation</a>
+
+<a href="https://forum.handbrake.fr/>Handbrake Forum</a>
+
+<a href="https://handbrake.fr/"><img src="https://handbrake.fr/img/logo.png" alt="Handbrake Logo" height="100" width="100"></a>
+
+<p>(Click on this icon for Handbrake)</p>
+</body>
+</html>

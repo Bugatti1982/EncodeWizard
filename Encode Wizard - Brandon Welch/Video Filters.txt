@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<title>Video Filters</title>
+<a href="Index.html"><img src="Logo.jpg" alt="Logo" height="100" width="100"></a>
+<center>
+<h1 style="background-color:#0000ff;color:white;font-family:impact;">Encode Wizard</h1>
+<h2 style="font-family:impact">The place were you can get tips for video encoding</h2>
+</center>
+
+<style>
+table {
+    width: 100%; 
+    background-color:#0000ff;
+}
+</style>
+
+<table>
+<th><a href="Index.html"style="color:white;">Home</th>
+<th><a href="Encoding Video.html"style="color:white;">Encoding Video</th>
+<th><a href="Video Filters.html"style="color:white;">Video Filters</th>
+<th><a href="Encoding Audio.html"style="color:white;">Encoding Audio</th>
+<th><a href="Help.html"style="color:white;">Help</th>
+</table>
+
+<body>
+<center>
+<p>Video filters are extremely important in enhancing the look of the video while also</p>
+<p>providing more efficient avenues for compressing video. If you are encoding Blu-rays</p>
+<p>that have a ton of grain, video filters are the best way to compress the file size.</p>
+<p>The first thing to know about video filters is that there are two settings called</p>
+<p><b>Detelecine</b> and <b>Deinterlace</b>. These are used primarly for encoding DVD's.</p>
+<p>When you observe old DVD's, often times there are random lines that appear when movement</p>
+<p>occurs in the footage.</p>
+
+<img src="http://yuvsoft.com/technologies/deinterlacing/yuv-decomb.jpg">
+
+<p>How to resolve this is to use the deinterlace and detelecine options.</p>
+<p>Deinterlace gives you lots of options that you can use to your advantage. However if you</p>
+<p>want to totally eliminate these lines, you may need to set it to <b>Decomb</b> and set</p>
+<p>it at it's highest detection speed. If that still doesn't do the trick, you can try also</p>
+<p>using <b>Detelecine</b> to remove any artifacts that might be still present. Keep in mind</p>
+<p>that you can use multiple settings at once if it doesn't do the job well.</p>
+
+<img src="Screenshot 5 (Edited).jpg" alt="Screenshot 5 (Edited)" height="450">
+
+<p>The <b>Denoise</b> option is most important in Blu-ray encoding since it is presented in high</p>
+<p>definition and most old movies are prone to grain or noise. Denoise helps with removing the</p>
+<p>grain for a cleaner presentation. There are two options you can choose from for denoising videos.</p>
+<p>There is <b>hqdn3d</b> and <b>NL Means</b>. If you have the time it is prefered that you use NL</p>
+<p>Means since that eliminates the grain considerably well. But if you want a faster way you may use</p>
+<p>hqdn3d. If NL Means does not provide you with the desirable space, there is a third option you can try</p>
+<p>that is located in the <b>Video</b> page. Under the <b>Optimise Video</b> section there is a tab called</p>
+<p><b>Tune</b>. Select the <b>Animation</b> option to fully eliminate any extra grain that is not desired.</p>
+<p>(Make sure that for both NL Means and hqdn3d you set them both to <b>Strong</b>). With DVD's, you don't</p>
+<p>need to use the denoise option since they are lower in resolution.</p>
+
+<img src="Screenshot 3 (Edited) 2.jpg" alt="Screenshot 3 (Edited) 2" height="175">
+
+</center>
+</body>
+</html>

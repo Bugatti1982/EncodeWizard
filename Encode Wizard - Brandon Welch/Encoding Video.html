@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>Encode Video</title>
+<a href="Index.html"><img src="Logo.jpg" alt="Logo" height="100" width="100"></a>
+<center>
+<h1 style="background-color:#0000ff;color:white;font-family:impact;">Encode Wizard</h1>
+<h2 style="font-family:impact">The place were you can get tips for video encoding</h2>
+</center>
+
+<style>
+table {
+    width: 100%; 
+    background-color:#0000ff;
+}
+</style>
+
+<table>
+<th><a href="Index.html"style="color:white;">Home</th>
+<th><a href="Encoding Video.html"style="color:white;">Encoding Video</th>
+<th><a href="Video Filters.html"style="color:white;">Video Filters</th>
+<th><a href="Encoding Audio.html"style="color:white;">Encoding Audio</th>
+<th><a href="Help.html"style="color:white;">Help</th>
+</table>
+
+<body>
+<center>
+<p>To learn video encoding you must be aware of all the functions</p>
+<p>To start loading a video you click on the <b>Source</b> button and direct where your video file is.</p>
+<p>Once you have loaded your video start to think about how much of the video you want to compress.</p>
+<p>It's good idea to to have the file be at the very least half the size of the original source.</p>
+<p>(Note: If your loading a video that is straight from a Blu-ray, you need to look at other sources</p>
+<p>such as ITunes and look under the file size for 1080p resolution) <b>Disclaimer: this website</b></p>
+<p><b>does not support or encourage video piracy. The material being used is for an example.</b></p>
+<p><b>This type of video encoding is for home usage only. Enter at your own risk.</b></p>
+
+<img src="Screenshot 3 (Edited) 1.jpg" alt="Screenshot 3 (Edited) 1" height="450">
+
+<p>Next consider how to get the best quality with the lowest file size possible. You can choose from</p>
+<p>either <b>Constant Quality</b> or <b>Average Bitrate</b>. Constant quality is the most prefered and distibutes</p>
+<p>the proper bitrate necessary. The setting that is best is setting the quality to either 23 or 24.</p>
+<p>Average Bitrate allows you to set the average bitrate yourself. The two best ways to use this is if</p>
+<p>you are in a situation where you want to reduce the file size from a Blu-ray that is hard to compress</p>
+<p>or if you want to upscale DVD's. To calculate this you need to do some research first before you calculate </p>
+<p>the bitrate. In this example, you see that there is DVD of Spider-Man 2 and I want to upscale it to the</p>
+<p>same file size as it is on ITunes.</p>
+
+<img src="ITunes Screenshot (Edited).jpg" alt="ITunes Screenshot (Edited)" height="450">
+
+<p>Now that you know that the file size you want is 2.05 GB as the file size, the next step is to look up</p>
+<p>the number of minutes the movie is. You can do it by doing one of two things. You can calculate it by</p>
+<p>using a calculator or look it up by using sites like <a href="https://www.imdb.com/">IMDB</a> or</p>
+<p><a href="https://www.blu-ray.com/">Blu-ray.com</a></p>
+
+<img src="Blu-ray Screenshot (Edited).jpg" alt="Blu-ray Screenshot (Edited)" height="450">
+
+<p>The final bit of research you need is the average bitrate for the audio. If you've already converted the</p>
+<p>video with the same settings that is recommended for audio, just right click on the previously converted</p>
+<p>video and click <b>Properties</b> and click on the <b>Details</b> tab. If you don't have the video, just use 384 as</p>
+<p>the average bitrate for the audio</p>
+
+<img src="File Details Screenshot (Edited).jpg" alt="File Details Screenshot (Edited) height="450">
+<p>Now that you have all the information you need, the final step is to plug in all the information using this</p>
+<p>equation: <b>((Desired file size / (Number of minutes * 0.0075)) * 1000) - Audio bitrate.</b> When you plug in the</p>
+<p>numbers you should get something like this: <b>(2.05 / (127 * 0.0075)) * 1000 = 2152 (Estimated) - 384 = 1768.</b></p>
+<p>When you use the 2-Pass Method, make sure that you check both 2-Pass Encoding, Turbo 1st Pass, set the Encoder Preset</p>
+<p>to Fast and select Varible Framerate. If you are using a DVD as a source, you may want to set the Framerate to 23.976</p>
+<p>and select Constant Framerate to keep it compatible with most players. Here is a comparison...</p>
+
+<p><b>Improperly Encoded</b></p>
+
+<video width="718" height="360" controls>
+  <source src="Improperly Encoded.mp4" type="video/mp4">
+</video>
+
+<p><b>Properly Encoded</b></p>
+
+<video width="718" height="360" controls>
+  <source src="Properly Encoded.mp4" type="video/mp4">
+</video>
+
+</center>
+</body>
+</html>
+
